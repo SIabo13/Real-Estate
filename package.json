@@ -1,0 +1,22 @@
+{
+  "name": "real-estate",
+  "version": "1.0.0",
+  "description": "Real Estate Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SIabo13/Real-Estate.git"
+  },
+  "author": "Raul Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SIabo13/Real-Estate/issues"
+  },
+  "homepage": "https://github.com/SIabo13/Real-Estate#readme",
+  "dependencies": {
+    "sass": "^1.26.8"
+  }
+}
