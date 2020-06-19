@@ -1,0 +1,22 @@
+.navbar{
+    position: fixed;
+    z-index: 5;
+    background: #1d1b1b00;;
+    width: 100%;
+}
+
+.nav-scrolled{
+    background-color: #343a40f0;
+    border-bottom: solid 1px;
+}
+
+.nav-link{
+font-size: 26px;
+}
+
+
+
+
+.navbar-collapse{
+    flex-flow: row-reverse;
+}

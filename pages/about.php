@@ -75,7 +75,7 @@
                 </div>
 
                 <div class="col-md-6">
-                    <img src="../images/john_doe.jpeg" alt="">
+                    <img src="../assets/images/john_doe.jpeg" alt="">
                 </div>
             </div>
             <div class="row">

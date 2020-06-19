@@ -8,13 +8,13 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/house1.jpg" class="d-block w-100" alt="...">
+          <img src="assets/images/house1.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="images/realestate2.jpg" class="d-block w-100" alt="...">
+          <img src="assets/images/realestate2.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="images/mansion_with_pool.jpg" class="d-block w-100" alt="...">
+          <img src="assets/images/mansion_with_pool.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
       <div class="control-box">
@@ -159,13 +159,13 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="images/house2.jpg" alt="First slide">
+                <img class="d-block w-100" src="assets/images/house2.jpg" alt="First slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="images/house1.jpg" alt="Second slide">
+                <img class="d-block w-100" src="assets/images/house1.jpg" alt="Second slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="images/realestate1.jpg" alt="Third slide">
+                <img class="d-block w-100" src="assets/images/realestate1.jpg" alt="Third slide">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -187,7 +187,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 cta-col">
-          <img src="images/home_interior.jpeg" alt="">
+          <img src="assets/images/home_interior.jpeg" alt="">
           <a href="" class="cta">
             <h2>APPRAISAL</h2>
           </a>
@@ -198,7 +198,7 @@
         
         <div class="col-md-6 cta-col">
           <a href="" class="cta">
-            <img src="images/happy-couple.jpeg" alt="">
+            <img src="assets/images/happy-couple.jpeg" alt="">
             <h2>BUYERS</h2>
           </a>
           <div class="overlay"></div>
@@ -209,14 +209,14 @@
       <div class="row">
         <div class="col-md-6 cta-col">
           <a href="" class="cta">
-            <img src="images/deal_handshake.jpeg" alt="">
+            <img src="assets/images/deal_handshake.jpeg" alt="">
             <h2>LIST WITH US</h2>
           </a>
           <div class="overlay"></div>
         </div>
         <div class="col-md-6 cta-col">
           <a href="" class="cta">
-            <img src="images/family_outside_house.jpeg" alt="">
+            <img src="assets/images/family_outside_house.jpeg" alt="">
             <h2>SELLERS</h2>
           </a>
           <div class="overlay"></div>
@@ -262,13 +262,13 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="images/house2.jpg" alt="First slide">
+                <img class="d-block w-100" src="assets/images/house2.jpg" alt="First slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="images/house1.jpg" alt="Second slide">
+                <img class="d-block w-100" src="assets/images/house1.jpg" alt="Second slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="images/realestate1.jpg" alt="Third slide">
+                <img class="d-block w-100" src="assets/images/realestate1.jpg" alt="Third slide">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -312,7 +312,7 @@
           <h3 class="ln-title text-light text-center">My Latest Articles</h3>
           <div class="ln-img">
             <a href="#">
-              <img src="images/pexels-photo-2287310.jpeg" alt="">
+              <img src="assets/images/pexels-photo-2287310.jpeg" alt="">
             </a>
           </div>
         </div>
@@ -320,7 +320,7 @@
           <div class="ln-date text-light text-center">02-17-2020</div>
           <h3 class="ln-title text-light text-center">My Latest Articles</h3>
           <div class="ln-img">
-            <a href="#"><img src="images/realestate2.jpg" alt=""></a>
+            <a href="#"><img src="assets/images/realestate2.jpg" alt=""></a>
             
           </div>
         </div>
@@ -328,7 +328,7 @@
           <div class="ln-date text-light text-center">02-17-2020</div>
           <h3 class="ln-title text-light text-center">My Latest Articles</h3>
           <div class="ln-img">
-           <a href="#"><img src="images/realestate1.jpg" alt=""></a> 
+           <a href="#"><img src="assets/images/realestate1.jpg" alt=""></a> 
           </div>
         </div>
       </div>

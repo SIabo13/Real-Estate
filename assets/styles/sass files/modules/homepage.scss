@@ -1,0 +1,184 @@
+#section-1 h2{
+    padding-bottom: 10px;
+    color: white;
+    padding-top: 10px;
+    font-size: 2.5em;
+}
+
+#section-1 input{
+    height: 2.3em;
+    background:#ffffff00;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+#section-1 button{
+    height: 2.3em;
+    background:#343a4008;
+    width: 100%;
+}
+
+#section-1 .row{
+    padding-bottom: 1em;
+}
+#section-1 .container{
+    max-width: 783px;
+}
+
+#section-1{
+    min-height: 200px;
+   background: #363636;
+}
+
+#section-1 select{
+    width: 100%;
+    height: 2.3em;
+    background: #a52a2a00;
+    color: white;
+    font-size: 20px;
+}
+
+#section-5{
+    min-height: 50vh;
+    }
+
+    #section-5 .row{
+        padding-bottom: 1em;
+    }
+    
+    #section-5 p{
+        padding-top: 2em;
+    }
+    
+    #section-5 .row{
+        padding-top: 4em;
+    }
+    
+    #section-6{
+        background: linear-gradient(rgba(20, 20, 20, 0.9), rgba(20, 20, 20, 0.5)), url("images/house2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 60vh;
+    }
+    
+    
+    #section-6 .col-md-7{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #section-6 .wp-100{
+        width: 70%;
+        margin-top: 3em;
+    }
+    
+    #section-6 .row{
+        padding: 4em 0 1em 0;
+    }
+    
+    #section-7 .container{
+        padding: 3em 0 3em 0;
+    }
+
+    #zip-search{
+        padding: 1em;
+    }
+    #zip-search input{
+        border: solid 1px;
+    }
+    
+    .search-btn{
+        margin-left: 1em;
+    }
+    
+    .d-flex{
+        justify-content: center;
+    }
+
+    #s-submit{
+        justify-content: center;
+    }
+    #s-submit button{
+        background: #86a0b1;
+    }
+
+    
+    #feature_sec{
+        background: linear-gradient(rgba(20, 20, 20, 0.9), rgba(20, 20, 20, 0.5)), url("images/mansion_with_pool.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      
+      }
+      
+      #feature_sec .container{
+          padding: 2.5em 0 2.5em 0;
+      }
+      
+      
+      
+      .fp-price,.fp-address{
+      color: white;
+      }
+      
+      .fp-title span{
+          font-size: 40px;
+      }
+      
+      .fp-title{
+          font-size: 5vw;
+          margin-bottom: 60px;
+          color: white;
+          padding-right: 1em;
+      
+      }
+      
+      #feature_sec .btn{
+          margin-top: 1em;
+          margin-bottom:1em;
+      }
+      
+      @media only screen and (max-width:763px){
+          .fp-title{
+          font-size: 10vw
+          }
+      }
+      
+      .fp-price{
+          font-size: 30px;
+      }
+      
+      
+      
+      .carousel-item img{
+          height: 700px;
+      }
+      
+      .overlay {
+          position: absolute; 
+          bottom: 0; 
+          background: rgba(0, 0, 0, 0.5); /* Black see-through */
+          width: 100%;
+          transition: .5s ease;
+          opacity:0;
+          color: white;
+          font-size: 20px;
+          padding: 20px;
+          text-align: center;
+          height: 100%;
+        }
+        
+        
+      
+      
+      
+      
+      
+      
+      
+      .ln-img img{
+          width: 100%;
+          height: 200px;
+      }

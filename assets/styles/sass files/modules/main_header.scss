@@ -1,0 +1,51 @@
+.hero_header{
+    color: white;
+     font-size: 7vw;
+ }
+ 
+ .overlay_header{
+     position: absolute;
+     bottom: 0;
+     background: rgba(0, 0, 0, 0.3);
+     width: 100%;
+     color: white;
+     font-size: 20px;
+     padding: 20px;
+     text-align: center;
+     height: 100%;
+ }
+ 
+ #main_header_row{
+     position: absolute;
+     top: 16em;
+     left: 1em;
+ }
+ 
+ 
+ 
+ .carousel-control-prev{
+     left:0;
+     background: black;
+     height: 75px;
+     width: 75px;
+     position: relative;
+     top: -11em;
+ } 
+ 
+  .carousel-control-next{
+     right:0;
+     background: black;
+     height: 75px;
+     width: 75px;
+     position: relative;
+     top: -11em;
+ }
+ 
+ .control-box{
+     display: flex;
+ }
+
+ #main_header{
+    height: 700px;
+    overflow: hidden;
+}

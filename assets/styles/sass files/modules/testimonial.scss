@@ -1,0 +1,49 @@
+/* testimonial Page Begins */
+#testimonial_section-2{
+    background:#262527;
+    padding-bottom: 2em;
+}
+
+#testimonial_section-2 img{
+    height:155px;
+    width: 155px;
+}
+
+#testimonial-section-3{
+    background: linear-gradient(rgba(20, 20, 20, 0.9), rgba(20, 20, 20, 0.5)), url('../images/sign-contract.jpeg');
+    width: 100%;
+    height: 48vh;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+#testimonial-section-3 button{
+    display: block;
+    margin: auto;
+    width: 10em;
+}
+
+#testimonial-section-3 .row{
+   padding-top: 3em;
+}
+
+@media only screen and (max-width:991px)and (min-width:766px){
+    .card-body{
+        padding-left: 3em;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .card-img{
+    display: block;
+    margin: auto;
+    
+    }
+    #testimonial_section-2 img {
+        width: 100%;
+    height: 350px;
+}
+}

@@ -2,86 +2,18 @@ h1, h2, h3, p, span {
   font-family: "Cinzel", serif;
 }
 
-#section-5 .row {
-  padding-bottom: 1em;
-}
-
-#section-1 .row {
-  padding-bottom: 1em;
-}
-
-#section-1 .container {
-  max-width: 783px;
-}
-
-.navbar {
-  position: fixed;
-  z-index: 5;
-  background: #1d1b1b00;
-  width: 100%;
-}
-
-.nav-scrolled {
-  background-color: #343a40f0;
-  border-bottom: solid 1px;
-}
-
-.nav-link {
-  font-size: 26px;
-}
-
-.navbar-collapse {
-  flex-flow: row-reverse;
-}
-
-#main_header {
-  height: 700px;
-  overflow: hidden;
-}
-
-.min-max {
-  padding-left: 1em;
-}
-
-#section-1 h2 {
-  padding-bottom: 10px;
-  color: white;
-  padding-top: 10px;
-  font-size: 2.5em;
-}
-
-#section-1 input {
-  height: 2.3em;
-  background: #ffffff00;
-  width: 100%;
-  color: white;
-  font-size: 20px;
-}
-
-#section-1 button {
-  height: 2.3em;
-  background: #343a4008;
-  width: 100%;
-}
-
 .btn {
   width: 8em;
 }
 
-#zip-search {
-  padding: 1em;
+.breadcrumb {
+  padding-top: 4em;
+  background-color: #e9ecef00;
+  font-size: 21px;
 }
 
-#zip-search input {
-  border: solid 1px;
-}
-
-.search-btn {
-  margin-left: 1em;
-}
-
-.d-flex {
-  justify-content: center;
+.min-max {
+  padding-left: 1em;
 }
 
 .hero_header {
@@ -129,9 +61,129 @@ h1, h2, h3, p, span {
   display: flex;
 }
 
+#main_header {
+  height: 700px;
+  overflow: hidden;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 5;
+  background: #1d1b1b00;
+  width: 100%;
+}
+
+.nav-scrolled {
+  background-color: #343a40f0;
+  border-bottom: solid 1px;
+}
+
+.nav-link {
+  font-size: 26px;
+}
+
+.navbar-collapse {
+  flex-flow: row-reverse;
+}
+
+#section-1 h2 {
+  padding-bottom: 10px;
+  color: white;
+  padding-top: 10px;
+  font-size: 2.5em;
+}
+
+#section-1 input {
+  height: 2.3em;
+  background: #ffffff00;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+}
+
+#section-1 button {
+  height: 2.3em;
+  background: #343a4008;
+  width: 100%;
+}
+
+#section-1 .row {
+  padding-bottom: 1em;
+}
+
+#section-1 .container {
+  max-width: 783px;
+}
+
 #section-1 {
   min-height: 200px;
   background: #363636;
+}
+
+#section-1 select {
+  width: 100%;
+  height: 2.3em;
+  background: #a52a2a00;
+  color: white;
+  font-size: 20px;
+}
+
+#section-5 {
+  min-height: 50vh;
+}
+
+#section-5 .row {
+  padding-bottom: 1em;
+}
+
+#section-5 p {
+  padding-top: 2em;
+}
+
+#section-5 .row {
+  padding-top: 4em;
+}
+
+#section-6 {
+  background: linear-gradient(rgba(20, 20, 20, 0.9), rgba(20, 20, 20, 0.5)), url("images/house2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 60vh;
+}
+
+#section-6 .col-md-7 {
+  display: flex;
+  justify-content: center;
+}
+
+#section-6 .wp-100 {
+  width: 70%;
+  margin-top: 3em;
+}
+
+#section-6 .row {
+  padding: 4em 0 1em 0;
+}
+
+#section-7 .container {
+  padding: 3em 0 3em 0;
+}
+
+#zip-search {
+  padding: 1em;
+}
+
+#zip-search input {
+  border: solid 1px;
+}
+
+.search-btn {
+  margin-left: 1em;
+}
+
+.d-flex {
+  justify-content: center;
 }
 
 #s-submit {
@@ -180,6 +232,30 @@ h1, h2, h3, p, span {
 }
 .fp-price {
   font-size: 30px;
+}
+
+.carousel-item img {
+  height: 700px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  /* Black see-through */
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  height: 100%;
+}
+
+.ln-img img {
+  width: 100%;
+  height: 200px;
 }
 
 .cta-col {
@@ -238,131 +314,14 @@ a:link {
   overflow: hidden;
 }
 
-#section-1 select {
-  width: 100%;
-  height: 2.3em;
-  background: #a52a2a00;
-  color: white;
-  font-size: 20px;
+.cta-col:hover .overlay {
+  opacity: 1;
 }
 
 .cta-col {
   padding: 0;
 }
 
-.carousel-item img {
-  height: 700px;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  /* Black see-through */
-  width: 100%;
-  transition: 0.5s ease;
-  opacity: 0;
-  color: white;
-  font-size: 20px;
-  padding: 20px;
-  text-align: center;
-  height: 100%;
-}
-
-.cta-col:hover .overlay {
-  opacity: 1;
-}
-
-#section-5 {
-  min-height: 50vh;
-}
-
-#section-5 p {
-  padding-top: 2em;
-}
-
-#section-5 .row {
-  padding-top: 4em;
-}
-
-#section-6 {
-  background: linear-gradient(rgba(20, 20, 20, 0.9), rgba(20, 20, 20, 0.5)), url("images/house2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 60vh;
-}
-
-#section-6 .col-md-7 {
-  display: flex;
-  justify-content: center;
-}
-
-#section-6 .wp-100 {
-  width: 70%;
-  margin-top: 3em;
-}
-
-#section-6 .row {
-  padding: 4em 0 1em 0;
-}
-
-#section-7 .container {
-  padding: 3em 0 3em 0;
-}
-
-#contact_section {
-  background: #171a1d;
-  padding-top: 3em;
-  padding-bottom: 3em;
-}
-
-#contact_section h3 {
-  color: white;
-}
-
-.footer-dark a {
-  color: white;
-}
-
-.footer-dark h3 {
-  text-align: center;
-}
-
-.footer-dark li {
-  list-style-type: none;
-  text-align: center;
-}
-
-@media only screen and (width: 573px) {
-  .footer-dark h3 {
-    font-size: 50px;
-  }
-
-  .footer-dark li {
-    font-size: 30px;
-  }
-
-  .container {
-    min-height: 400px;
-  }
-}
-.form-container {
-  background-color: #343a40;
-  padding: 2em;
-  border-radius: 10px;
-}
-
-.form-container label {
-  color: white;
-}
-
-.ln-img img {
-  width: 100%;
-  height: 200px;
-}
-
-/* About Begins Here */
 #about_section-1 {
   background: linear-gradient(rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.5)), url("../images/secondary-header-2-1.jpg");
   background-position: center;
@@ -405,12 +364,6 @@ a:link {
 
 #about_section-2 .row:nth-of-type(2) {
   padding-bottom: 4em;
-}
-
-.breadcrumb {
-  padding-top: 4em;
-  background-color: #e9ecef00;
-  font-size: 21px;
 }
 
 /* testimonial Page Begins */
@@ -459,5 +412,26 @@ a:link {
     height: 350px;
   }
 }
+#contact_section {
+  background: #171a1d;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+#contact_section h3 {
+  color: white;
+}
+
+.form-container {
+  background-color: #343a40;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.form-container label {
+  color: white;
+}
+
+/* About Begins Here */
 
 /*# sourceMappingURL=main_style.css.map */

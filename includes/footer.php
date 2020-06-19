@@ -67,7 +67,7 @@
   
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/bs-init.js"></script>
-  <script src="<?php if($secondary){echo '../';}?>scripts/script.js"></script>
+  <script src="<?php if($secondary){echo '../';}?>assets/scripts/script.js"></script>
 </body>
 
 </html>
