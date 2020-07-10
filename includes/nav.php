@@ -15,6 +15,9 @@
         <li class="nav-item">
           <a class="nav-link" href="<?php if(!$secondary){echo 'pages/';}?>about.php">ABOUT</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php if(!$secondary){echo 'pages/';}?>contact.php">CONTACT</a>
+        </li>
         <!-- <li class="nav-item">
           <a class="nav-link" href="<?php if(!$secondary){echo 'pages/';}?>page_template.php">PAGE TEMPLATE</a>
         </li>

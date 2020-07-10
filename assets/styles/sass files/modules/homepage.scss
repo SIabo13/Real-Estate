@@ -1,59 +1,58 @@
-#section-1 h2{
-    padding-bottom: 10px;
-    color: white;
-    padding-top: 10px;
-    font-size: 2.5em;
-}
-
-#section-1 input{
-    height: 2.3em;
-    background:#ffffff00;
-    width: 100%;
-    color: white;
-    font-size: 20px;
-}
-
-#section-1 button{
-    height: 2.3em;
-    background:#343a4008;
-    width: 100%;
-}
-
-#section-1 .row{
-    padding-bottom: 1em;
-}
-#section-1 .container{
-    max-width: 783px;
-}
-
 #section-1{
     min-height: 200px;
-   background: #363636;
+    background: #363636;
+
+    & h2{
+        padding-bottom: 0.65rem;
+        color: white;
+        padding-top: 0.65rem;
+        font-size: 2.5rem;
+    }
+    
+    & input{
+        height: 2.3rem;
+        background:#ffffff00;
+        width: 100%;
+        color: white;
+        font-size: 1.25rem;
+    }
+    
+    & button{
+        height: 2.3em;
+        background:#343a4008;
+        width: 100%;
+    }
+    
+    & .row{
+        padding-bottom: 1rem;
+    }
+    & .container{
+        max-width: 783px;
+    }
+    
+    
+    
+    & select{
+        width: 100%;
+        height: 2.3rem;
+        background: #a52a2a00;
+        color: white;
+        font-size: 1.25rem;
+    }
 }
 
-#section-1 select{
-    width: 100%;
-    height: 2.3em;
-    background: #a52a2a00;
-    color: white;
-    font-size: 20px;
-}
+
 
 #section-5{
     min-height: 50vh;
+
+    & p{
+        padding-top: 2rem;
+    }
     }
 
-    #section-5 .row{
-        padding-bottom: 1em;
-    }
-    
-    #section-5 p{
-        padding-top: 2em;
-    }
-    
-    #section-5 .row{
-        padding-top: 4em;
-    }
+
+
     
     #section-6{
         background: linear-gradient(rgba(20, 20, 20, 0.9), rgba(20, 20, 20, 0.5)), url("images/house2.jpg");
@@ -61,36 +60,39 @@
         background-repeat: no-repeat;
         background-size: cover;
         min-height: 60vh;
-    }
     
-    
-    #section-6 .col-md-7{
+    & .col-md-7{
         display: flex;
         justify-content: center;
     }
-    
-    #section-6 .wp-100{
+
+    & .wp-100{
         width: 70%;
-        margin-top: 3em;
+        margin-top: 3rem;
+    }
+
+    & .row{
+        padding: 4rem 0 1rem 0;
+    }
+
     }
     
-    #section-6 .row{
-        padding: 4em 0 1em 0;
-    }
-    
+   
     #section-7 .container{
-        padding: 3em 0 3em 0;
+        padding: 3rem 0 3rem 0;
     }
 
     #zip-search{
-        padding: 1em;
+        padding: 1rem;
+
+        & input{
+            border: solid 1px;
+        }
     }
-    #zip-search input{
-        border: solid 1px;
-    }
+
     
     .search-btn{
-        margin-left: 1em;
+        margin-left: 1rem;
     }
     
     .d-flex{
@@ -99,10 +101,12 @@
 
     #s-submit{
         justify-content: center;
+
+        & button{
+            background: #86a0b1;
+        }
     }
-    #s-submit button{
-        background: #86a0b1;
-    }
+
 
     
     #feature_sec{
@@ -111,49 +115,21 @@
         background-position: center;
         background-size: cover;
       
-      }
+    & .container{
+        padding: 2.5rem 0 2.5rem 0;
+    }
+    
+    & .btn{
+        margin-top: 1rem;
+        margin-bottom:1rem;
+    }
+
+    
+    }
       
-      #feature_sec .container{
-          padding: 2.5em 0 2.5em 0;
-      }
-      
-      
-      
-      .fp-price,.fp-address{
-      color: white;
-      }
-      
-      .fp-title span{
-          font-size: 40px;
-      }
-      
-      .fp-title{
-          font-size: 5vw;
-          margin-bottom: 60px;
-          color: white;
-          padding-right: 1em;
-      
-      }
-      
-      #feature_sec .btn{
-          margin-top: 1em;
-          margin-bottom:1em;
-      }
-      
-      @media only screen and (max-width:763px){
-          .fp-title{
-          font-size: 10vw
-          }
-      }
-      
-      .fp-price{
-          font-size: 30px;
-      }
-      
-      
-      
+
       .carousel-item img{
-          height: 700px;
+          height: 34.75rem;
       }
       
       .overlay {
@@ -164,21 +140,14 @@
           transition: .5s ease;
           opacity:0;
           color: white;
-          font-size: 20px;
-          padding: 20px;
+          font-size: 1.25rem;
+          padding: 1.25rem;
           text-align: center;
           height: 100%;
         }
         
-        
-      
-      
-      
-      
-      
-      
       
       .ln-img img{
           width: 100%;
-          height: 200px;
+          height: 12.5rem;
       }

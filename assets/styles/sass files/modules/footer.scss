@@ -1,23 +1,27 @@
-.footer-dark a{
-    color: white;
-}
 
-.footer-dark h3{
-    text-align: center;
-}
-
-.footer-dark li{
-    list-style-type: none;
-    text-align: center;
+.footer-dark{
+    & a{
+        color: white;
+    }
+    & h3{
+        text-align: center;
+    }
+    & li{
+        list-style-type: none;
+        text-align: center;
+    }
 }
 
 @media only screen and (width:573px){
-    .footer-dark h3{
-        font-size: 50px;
+    .footer-dark{
+        & h3{
+            font-size: 3.125rem;
+        }
+        & li{
+            font-size: 1.875rem;
+        }
     }
-    .footer-dark li{
-        font-size: 30px;
-    }
+
     .container{
         min-height: 400px;
     }

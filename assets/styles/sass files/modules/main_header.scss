@@ -9,16 +9,16 @@
      background: rgba(0, 0, 0, 0.3);
      width: 100%;
      color: white;
-     font-size: 20px;
-     padding: 20px;
+     font-size:1.25rem;
+     padding:1.25rem;
      text-align: center;
      height: 100%;
  }
  
  #main_header_row{
      position: absolute;
-     top: 16em;
-     left: 1em;
+     top: 16rem;
+     left: 1rem;
  }
  
  
@@ -26,8 +26,8 @@
  .carousel-control-prev{
      left:0;
      background: black;
-     height: 75px;
-     width: 75px;
+     height:4.68rem;
+     width:4.68rem;
      position: relative;
      top: -11em;
  } 
@@ -35,8 +35,8 @@
   .carousel-control-next{
      right:0;
      background: black;
-     height: 75px;
-     width: 75px;
+     height:4.68rem;
+     width:4.68rem;
      position: relative;
      top: -11em;
  }
@@ -46,6 +46,6 @@
  }
 
  #main_header{
-    height: 700px;
+    height: 43.75rem;
     overflow: hidden;
 }

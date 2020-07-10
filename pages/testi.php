@@ -1,20 +1,14 @@
-<?php $secondary = TRUE; ?>
+<?php $secondary = TRUE; 
+$page_title = 'Testimonial';
+$page_subtitle = 'What Clients Are Saying';
+?>
 
-<?php include '../includes/header.php'?>
 
-<?php include '../includes/nav.php' ?>
+<?php include '../includes/secondary_header.php'?>
 
-  <section id="about_section-1">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1 class="text-left hero_header">Testimonial</h1>
-          <h3 class="text-left text-light">What clients are saying</h3>
 
-        </div>
-      </div>
-    </div>
-  </section>
+
+  
 
 
   <section id="testimonial_section-2">
