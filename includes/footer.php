@@ -1,5 +1,5 @@
 
- <section id="contact_section">
+ <section id="contact_section" class="pt-5 pb-5">
     <div class="footer-dark">
       <footer>
           <div class="container">

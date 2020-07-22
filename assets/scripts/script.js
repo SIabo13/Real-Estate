@@ -32,3 +32,5 @@ $(document).ready(function () {
                 $('.hero_header').css('display', 'none').fadeIn(2000)
                 $('.hero_header').siblings('h3,h2,button').css('display', 'none').fadeIn(2500)
             })
+
+})
