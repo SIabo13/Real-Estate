@@ -23,115 +23,48 @@ $page_subtitle = 'What Clients Are Saying';
         What Clients Are Saying
       </h2>
       <div class="row">
-        <div class="col-md-6">
+
+
+        <?php 
+        while($row = mysqli_fetch_assoc($result)){ ?>
+          
+          <div class="col-md-6">
           <div class="card mb-3" style="max-width: 540px;">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <img src="../assets/images/Hanna Review.jpeg" class="card-img" alt="...">
+                <img src="../assets/images/<?php echo $row['img'] ?>" class="card-img" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.</p>
-                  <a href="#">Read More</a>
+                  <h5 class="card-title"><?php echo $row['test_name'] ?></h5>
+                  <p><?php $row['test_ID'] ?></p>
+                  <p class="card-text"><?php 
+                  $string = $row['testimonial']; 
+                  if (strlen($string) > 100) {
+                    echo substr($string, 0, 100);
+                } else {
+                    echo $string;
+                }
+
+                  ?></p>
+                  <a href="single_test.php?id=<?php echo $row['test_ID']; ?>">Read More</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="../assets/images/claira review.jpeg" class="card-img" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.</p>
-                  <a href="#">Read More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
+        <?php }
+        
+        
+        ?>
+
+
       </div>
 
-      <div class="row">
-        <div class="col-md-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="../assets/images/Hanna Review.jpeg" class="card-img" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.</p>
-                  <a href="#">Read More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="../assets/images/claira review.jpeg" class="card-img" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.</p>
-                  <a href="#">Read More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
-      <div class="row">
-        <div class="col-md-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="../assets/images/Hanna Review.jpeg" class="card-img" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.</p>
-                  <a href="#">Read More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="../assets/images/claira review.jpeg" class="card-img" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.</p>
-                  <a href="#">Read More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
   </section>
 
